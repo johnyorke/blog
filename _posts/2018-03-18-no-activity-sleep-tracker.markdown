@@ -17,7 +17,7 @@ The app will look for long intervals of inactivity (when your watch is on your n
 
 No sleeping with a charging phone under your pillow 😬 or manual entry required, just live your life and go to sleep at night. If you’re like me and you wear your Apple Watch all day, every day without fail then you should find it surprisingly accurate.
 
-![](https://cdn-images-1.medium.com/max/2000/1*NrBBqJr5WpKsEKG30AMjZA.png)
+![An iPhone X showing a list of sleep entries for the last 30 days with a large titled that says "In Bed" in the navigation bar at the top. The entries underneath show how long the user was in bed for.]({{site.url}}/assets/images/no_activity/no_activity_sleep_tracker_in_phone.png)
 
 ## How it works
 
@@ -33,7 +33,7 @@ This is a simple one…the app doesn’t do anything with your data except pull 
 
 *NB. The above is certainly true at the time of writing and I’m not saying it’ll be like this forever – some features I have floating around my head would require some remote processing. If I was to ever add such a feature I would make it 100% clear it has been added and ask you to opt in (**not** assume you’re in and let you opt out…big difference.)*
 
-![](https://cdn-images-1.medium.com/max/2000/1*ZAs85_TCKJVV5qPzXo2o2Q.png)
+![An iPhone X showing a screenshot from the Health app on iOS. The current screen shows sleep analysis for the last 30 days and an average amount of hours and minutes in bed for the month.]({{site.url}}/assets/images/no_activity/no_activity_health_app_screenshot.png)
 
 ## How it makes money
 

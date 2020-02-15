@@ -26,7 +26,7 @@ One way to combat this is to use a monolithic UIViewController base class that h
 
 ## A Potential Solution
 
-![](https://cdn-images-1.medium.com/max/2000/1*M78XiKF82XHVMhbYN3Lq_A.png)
+![A graphic showing "3rd Party Dependency" in a box at the top labelled "Outer Layer". Underneath it is another box titled "Middle man between 1st and 3rd party.". At the bottom is a 3rd box titled "All the stuff specific to your app" labelled "Core". There are 2 arrows going upwards from the bottom, linking the 3 box.]({{site.url}}/assets/images/dependencies/dependency_graphic_1.png)
 
 This is where leaning heavily on protocols can lead to a big win. First let’s declare a few domain objects that are specific to our app and only uses primitive types.
 
@@ -177,7 +177,7 @@ If you now wanted to switch to a Realm Database you’d just need to do the foll
 
 And that’s it! Your commit would be tiny and (in this case) only add a 2 new files, even though you’ve just switched your (typically deep-rooted) persistence layer to another provider.
 
-![](https://cdn-images-1.medium.com/max/2000/1*izRA-p2Sb7aexVfnl5ey1w.png)
+![A graphic showing "Realm" in a box at the top labelled "Outer Layer", next to it is a crossed-out box title "Core Data". Underneath it is another box titled "Database Repository.". At the bottom is a 3rd box titled "View Controllers" labelled "Core". There are 2 arrows going upwards from the bottom, linking the 3 boxes.]({{site.url}}/assets/images/dependencies/dependency_graphic_2.png)
 
 ## Other Use Cases
 
@@ -203,7 +203,7 @@ protocol FileDownloader {
 
 All of these examples can be easily implemented by all sorts of libraries, but it avoids having 3rd party code and models in your domain layer and makes switching one out an absolute breeze.
 
-For example, in my [last app](https://johnyorke.me/no-activity-sleep-tracker-a1638dd2ef5c) I use a repository to sit between my core app layer and HealthKit. That way, if I ever wanted to switch to another source of health data, I could do so easily. Also, my domain layer objects don’t have the 100s of properties that HealthKit’s do, instead, my models just have the properties I need.
+For example, in my [last app](https://itunes.apple.com/gb/app/no-activity-sleep-tracker/id1351478990?mt=8) I use a repository to sit between my core app layer and HealthKit. That way, if I ever wanted to switch to another source of health data, I could do so easily. Also, my domain layer objects don’t have the 100s of properties that HealthKit’s do, instead, my models just have the properties I need.
 
 ## Conclusion
 

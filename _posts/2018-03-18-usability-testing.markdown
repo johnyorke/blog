@@ -5,6 +5,8 @@ date:   2018-08-18 19:58:06 +0000
 categories: usability-testing
 ---
 
+![Woman's hands holding an iPhone X and pressing on a control on screen]({{site.url}}/assets/images/usability_testing/device_in_hand.jpeg)
+
 When all your hard work is put under a microscope it can lead to a rather uncomfortable feeling.
 
 No one wants to hear that the project they’ve been working on for *x* number of months is “complicated”, “looks ugly”, or “doesn’t work”. It can lead to feelings of self-doubt or even lead you to giving up altogether. However, if framed right, it can be one of the most fulfilling and useful things you can do for your project.
