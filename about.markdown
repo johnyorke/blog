@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumerd (not their release date).
+Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumed (not their release date).
 
 # Books
 *2019*
 * Masters of Doom - David Kushner
 * Lone Wolf & Cub - Kazuo Koike and Goseki Kojima
+* Chernobyl: History of a Tragedy - Serhii Plokhy
 
 *2020*
 * Samurai Executioner (Omnibus 1 to 4) - Kazuo Koike and Goseki Kojima
