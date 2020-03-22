@@ -20,6 +20,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 # Games
 *2019*
 * Resident Evil 2 Remake - PS4
+* Sekiro: Shadows Die Twice - PS4
 * Devil May Cry 5 - PS4
 * Jedi Fallen Order - PS4
 * Luigi's Mansion 3 - Switch
@@ -40,3 +41,4 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 *2020*
 * Lady Bird - Greta Gerwig
 * Marriage Story - Noah Baumbach
+* Uncut Gems - Josh & Bennie Safdie
