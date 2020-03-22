@@ -12,7 +12,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Lone Wolf & Cub - Kazuo Koike and Goseki Kojima
 
 *2020*
-* Samurai Executioner (Omnibus 1 to 4) - Kazuo Koike and Goseki Kojima
+* Samurai Executioner - Kazuo Koike and Goseki Kojima
 * In Cold Blood - Truman Capote
 * Dept. Of Speculation - Jenny Offill
 * Endurance - Alfred Lansing
