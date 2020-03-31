@@ -16,6 +16,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * In Cold Blood - Truman Capote
 * Dept. Of Speculation - Jenny Offill
 * Endurance - Alfred Lansing
+* Spelunky Boss Fight Books #11 - Derek Yu
 
 # Games
 *2019*
