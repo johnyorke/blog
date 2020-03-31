@@ -10,6 +10,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 *2019*
 * Masters of Doom - David Kushner
 * Lone Wolf & Cub - Kazuo Koike and Goseki Kojima
+* Chernobyl: History of a Tragedy - Serhii Plokhy
 
 *2020*
 * Samurai Executioner - Kazuo Koike and Goseki Kojima
