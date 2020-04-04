@@ -44,3 +44,4 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Lady Bird - Greta Gerwig
 * Marriage Story - Noah Baumbach
 * Uncut Gems - Josh & Bennie Safdie
+* Knives Out - Rian Johnson
