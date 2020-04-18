@@ -29,6 +29,8 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 
 *2020*
 * Terraria - Switch
+* Animal Crossing: New Horizons - Switch
+* Final Fantasy 7 Remake - PS4
 
 # TV Shows
 *2019*
