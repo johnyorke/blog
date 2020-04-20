@@ -18,6 +18,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Dept. Of Speculation - Jenny Offill
 * Endurance - Alfred Lansing
 * Spelunky Boss Fight Books #11 - Derek Yu
+* Scott - Ranulph Fiennes
 
 # Games
 *2019*
