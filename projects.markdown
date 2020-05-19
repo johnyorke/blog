@@ -8,7 +8,7 @@ permalink: /projects/
 
 My first app published to the store. At it's peak it reached 10,000 downloads a day, re-gained in popularity when I added watchOS support on day 1 of the Apple Watch being available.
 
-### [Chelsea FC Hopspitality](https://apps.apple.com/gb/app/chelsea-fc-hospitality/id751451886) (iOS, 2014)
+### [Chelsea FC Hospitality](https://apps.apple.com/gb/app/chelsea-fc-hospitality/id751451886) (iOS, 2014)
 
 Worked closely with Chelsea FC to deliver an app to compliment their matchdays. Interesting project that shifted state based on real-time events (pre-match, during match, half time, post-match).
 
