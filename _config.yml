@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
 
 header_pages:
+- projects.markdown
 - recommendations.markdown
 - about.markdown
 
