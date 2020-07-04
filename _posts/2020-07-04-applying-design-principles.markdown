@@ -87,7 +87,7 @@ Option 2 is more honest and does what it describes (and **only** what it describ
 ### 7. Good design is long lasting
 **long lasting** - *enduring or having endured for a long period of time*
 
-The API should be written to be extendable and but seldom modified. Application or language versions can change but the public API should stand the test of time (see `UITableView`).
+The API should be written to be extendable but seldom modified. Application or language versions can change but the public API should stand the test of time (see `UITableView`).
 
 ### 8. Good design is thorough down to the last detail
 **thorough** - *performed or written with great care and completeness*
@@ -97,9 +97,9 @@ Well documented and every signature, parameter name and return type considered f
 ### 9. Good design is environmentally friendly
 **environmentally friendly** - *not harmful to the environment*
 
-I think Dieter Ram was referring to the natural environment we live in, but it’s not much of a stretch to see the codebase and the development team as the “environment”.
+I think Dieter Rams was referring to the natural environment we live in, but it’s not much of a stretch to see the codebase and the development team as the “environment”.
 
-This means the API shouldn’t affect any global state and keeps performance in mind. It should be backed up by tests to give the user or future maintainer confidence. 
+This means the API shouldn’t affect any global state and always keeps performance in mind. It should be backed up by tests to give the user or future maintainer confidence. 
 
 If there is a style guide or convention in the app, it should be considered as part of the legibility/usability thought-process when designing.
 
@@ -111,7 +111,7 @@ Da Vinci was rumoured to have said “simplicity is the ultimate sophistication�
 
 ## Summary
 
-The best companies recognise that “creatives” are essentially engineers and that engineers are inherently creative. A lot of the learnings from the alternative discipline can often be applied to what you do. 
+The best product teams recognise that “creatives” are essentially engineers and that engineers are inherently creative. A lot of the learnings from the alternative discipline can often be applied to what you do. 
 
 [Abstract](www.abstract.com) is a good example of the opposite to this article, in that it takes something that works well in software development (version control and a peer review process) and applies it to the visual design process.
 
