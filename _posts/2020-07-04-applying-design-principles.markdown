@@ -60,26 +60,26 @@ All dependencies are injected in so there are is internal magic, no global state
 Let’s imagine you need an object to fetch some data from a remote source:
 
 ```swift
-    // Option 1
-    func fetchData(_ completion: (Data?) -> Void) {
-        let category = database.getParentCategory(for: self.selectedItem)
-        // How would I know that this function accesses the database unless I looked
-        // closely at the implementation?
-        
-        setLoadingStateTo(.loading)
-        // Again, how would I know this affects some state by this function name?
-
-        apiClient.data(for: category.id) { result in
-            // process the result and return the data
-        }
-    }
+// Option 1
+func fetchData(_ completion: (Data?) -> Void) {
+    let category = database.getParentCategory(for: self.selectedItem)
+    // How would I know that this function accesses the database unless
+    // I looked closely at the implementation?
     
-    // Option 2
-    func fetchData(forCategoryId id: String, completion: (Data?) -> Void) {
-        apiClient.data(for: category.id) { result in
-            // process the result and return the data
-        }
+    setLoadingStateTo(.loading)
+    // Again, how would I know this affects some state by this function name?
+
+    apiClient.data(for: category.id) { result in
+        // process the result and return the data
     }
+}
+
+// Option 2
+func fetchData(forCategoryId id: String, completion: (Data?) -> Void) {
+    apiClient.data(for: category.id) { result in
+        // process the result and return the data
+    }
+}
 ```
 
 ### 7. Good design is long lasting
