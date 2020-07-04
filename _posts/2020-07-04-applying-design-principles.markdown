@@ -32,7 +32,7 @@ Consider a database object that can save a new record:
 
 ```swift
 // Option 1
-func saveRecordToDatabase(record: Database) -> Error?
+func saveRecordToDatabase(record: Record) -> Error?
 
 // Option 2
 func save(_ record: Record) throws
