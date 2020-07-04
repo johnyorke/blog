@@ -7,7 +7,7 @@ categories: ios swift development
 
 The best engineers don’t just make something work, they also consider *how* it works. The idea of “API design” garners very little attention, but to me it is a fundamental of programming. 
 
-Whether you work in a team or it’s just you and your future-self, APIs will have “users” at the end of the day and they need to be intuitive. When writing, the author should agonise over how the next engineer might interpret and use their design. 
+Whether you work in a team or it’s just you and your future-self, APIs will have “users” at the end of the day and they need to be intuitive. When writing, the author should agonise over how the next engineer might interpret and use their design. Having consideration for the specification **and** the teammate is what makes a senior.
 
 In case I haven’t been 100% clear: **this article has nothing to do with the end-user or a graphical user interface, it’s about developer-to-developer interfacing.**
 
