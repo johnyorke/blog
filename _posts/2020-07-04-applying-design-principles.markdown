@@ -55,7 +55,7 @@ The API should not have a huge build-up procedure and should be lightweight enou
 
 The signature is descriptive and explains exactly what it does.
 
-All dependencies are injected in so there are is internal magic, no global state that can be altered and no nasty side-effects.
+All dependencies are injected in so there is no internal magic, no global state that can be altered and no nasty side-effects.
 
 Let’s imagine you need an object to fetch some data from a remote source:
 
@@ -82,10 +82,12 @@ func fetchData(forCategoryId id: String, completion: (Data?) -> Void) {
 }
 ```
 
+Option 2 is more honest and does what it describes (and **only** what it describes!).
+
 ### 7. Good design is long lasting
 **long lasting** - *enduring or having endured for a long period of time*
 
-Should be written to be extendable and very rarely modified. Application or language versions can change but the public API should stand the test of time.
+The API should be written to be extendable and but seldom modified. Application or language versions can change but the public API should stand the test of time (see `UITableView`).
 
 ### 8. Good design is thorough down to the last detail
 **thorough** - *performed or written with great care and completeness*
