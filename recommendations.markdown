@@ -9,7 +9,7 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 # Titles
 
 ## 2020
-### Books
+### Book
 * Endurance - Alfred Lansing
 * In Cold Blood - Truman Capote
 * Samurai Executioner - Koike & Kojima
@@ -17,41 +17,50 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Captain Scott - Sir Ranulph Fiennes
 * Spelunky - Derek Yu
 * The Worst Journey In The World - Apsley Cherry-Garrard
+* The Making Of Prince Of Persia - Jordan Mechner
+* Boss Fights: Red Dead Redemption - Matt Margini
+* A Brief History Of Japan - Jonathan Clements
+* Vagabond - Takehiko Inoue
 
-### Films
+### Film
 * Lady Bird - Saoirse Ronan
 * Uncut Gems - Josh & Bennie Safdie
 * Knives Out - Rian Johnson
 * Marriage Story - Noah Baumbach
 * Jojo Rabbit - Taika Waititi
+* Lone Wolf & Cub (6 Films) - Tomisaburo Wakayama
+* 1917 - Sam Mendes
+* Seven Samurai - Akira Kurosawa
 
-### Games
+### Game
 * Terraria - Switch
 * Luigi’s Mansion 3 - Switch
 * Animal Crossing: New Horizons - Switch
 * Final Fantasy 7 Remake - PS4
 * Superhot VR - Oculus Quest
+* Last Of Us Part Two - PS4
 
-### TV Shows
+### TV Show
 * The Last Dance - Netflix
+* Escape At Dannemora - Showtime
 
 ## 2019
-### Books
+### Book
 * Masters Of Doom - David Kushner
 * Lone Wolf & Cub - Koike & Kojima
 * Chernobyl: History Of A Tragedy - Serhii Plokhy
 
-### Films
+### Film
 * Star Wars Episode IX: The Rise Of Skywalker - J.J Abrams
 * Joker - Joaquin Phoenix
 
-### Games
+### Game
 * Resident Evil 2 - PS4
 * Devil May Cry 5 - PS4
 * Jedi: Fallen Order - PS4
 * Sekiro: Shadows Die Twice - PS4
 
-### TV Shows
+### TV Show
 * The Morning Show - Apple TV+
 * Watchmen - HBO
 * Chernobyl - HBO
