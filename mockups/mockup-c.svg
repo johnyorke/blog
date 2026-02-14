@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <pattern id="dither3" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#cbcbcb"/>
+      <rect x="0" y="0" width="1" height="1" fill="#7b7b7b"/>
+      <rect x="3" y="3" width="1" height="1" fill="#fff"/>
+    </pattern>
+    <pattern id="stripe3" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#eee"/>
+      <rect x="0" width="2" height="8" fill="#111"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#dither3)"/>
+  <rect x="0" y="0" width="1200" height="34" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+  <text x="16" y="22" font-family="monospace" font-size="14" font-weight="700">Apple   File   Edit   Go   Navigate</text>
+  <text x="1010" y="22" font-family="monospace" font-size="14">Reading Mode 9:51</text>
+
+  <g transform="translate(150 84)">
+    <rect x="6" y="6" width="900" height="560" fill="#666"/>
+    <rect x="0" y="0" width="900" height="560" fill="#efefef" stroke="#111" stroke-width="3"/>
+    <rect x="0" y="0" width="900" height="34" fill="url(#stripe3)" stroke="#111" stroke-width="3"/>
+    <rect x="272" y="6" width="360" height="22" fill="#efefef" stroke="#111" stroke-width="2"/>
+    <text x="352" y="22" font-family="monospace" font-size="13" font-weight="700">johnyorke.me - Article Window</text>
+
+    <text x="40" y="86" font-family="monospace" font-size="28" font-weight="700">Applying Design Principles in Product Work</text>
+    <text x="40" y="130" font-family="monospace" font-size="16">Reader-first layout with Finder-like shell around content.</text>
+    <text x="40" y="162" font-family="monospace" font-size="16">Keeps long-form text calm while preserving mid-80s Macintosh cues.</text>
+
+    <line x1="40" y1="190" x2="860" y2="190" stroke="#111"/>
+
+    <text x="40" y="238" font-family="monospace" font-size="15">Suggested mapping:</text>
+    <text x="40" y="270" font-family="monospace" font-size="15">1. Keep existing Jekyll layouts/content model.</text>
+    <text x="40" y="300" font-family="monospace" font-size="15">2. Add monochrome menu/window chrome wrappers.</text>
+    <text x="40" y="330" font-family="monospace" font-size="15">3. Use subtle dither + icon rail as decorative frame.</text>
+
+    <rect x="40" y="380" width="820" height="120" fill="#f8f8f8" stroke="#111" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="58" y="428" font-family="monospace" font-size="15">Best if readability is priority on desktop and mobile.</text>
+    <text x="58" y="458" font-family="monospace" font-size="15">Nostalgia stays in chrome, not in content legibility.</text>
+  </g>
+
+  <g transform="translate(1040 540)">
+    <rect width="58" height="48" fill="#f7f7f7" stroke="#111" stroke-width="2"/>
+    <text x="10" y="66" font-family="monospace" font-size="12">Home</text>
+    <rect y="92" width="58" height="48" fill="#f7f7f7" stroke="#111" stroke-width="2"/>
+    <text x="-2" y="160" font-family="monospace" font-size="12">Projects</text>
+  </g>
+</svg>

@@ -211,4 +211,4 @@ There are obvious benefits to this approach for testing, as well as some advance
 
 Writing all this down makes it sounds like I’m pointing out the bleeding obvious, but hopefully it’ll be useful to someone. And as usual, the implementation of this pattern sounds great until you actually come to do it and meet a giant road block. It’s happened to me countless times, but for the sole reason of being able to rip out dependencies at a days notice makes it worth pursuing.
 
-I’d love to hear from you if you like what I’ve done, or likewise if you don’t. Or if you have any questions I’m always happy to help and you can find me on [email](mailto:hello@johnyorke.me) or [Twitter](http://www.twitter.com/johnyorke).
+I’d love to hear from you if you like what I’ve done, or likewise if you don’t. Or if you have any questions I’m always happy to help and you can find me on [email](mailto:hello@johnyorke.me) or [BlueSky](https://bsky.app/profile/did:plc:l2ivqhps4jgde4kidasaqvbw).

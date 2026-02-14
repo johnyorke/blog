@@ -1,0 +1,251 @@
+:root {
+  --bg: #c6c6c6;
+  --paper: #efefef;
+  --line: #111;
+  --menu-h: 30px;
+  --shadow: #666;
+  --accent: #1f1f1f;
+  --font: "Chicago", "Geneva", "Monaco", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font);
+  color: #000;
+}
+
+body {
+  cursor: crosshair;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.45) 1px, transparent 0),
+    radial-gradient(circle at 2px 2px, rgba(255, 255, 255, 0.45) 1px, transparent 0);
+  background-size: 6px 6px, 6px 6px;
+  background-position: 0 0, 3px 3px;
+}
+
+.menu {
+  height: var(--menu-h);
+  border-bottom: 2px solid var(--line);
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.menu-left,
+.menu-right {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.apple {
+  width: 10px;
+  height: 12px;
+  border: 2px solid #000;
+  border-radius: 55% 45% 45% 50%;
+  display: inline-block;
+  transform: rotate(-14deg);
+  margin-right: 8px;
+}
+
+.desktop {
+  min-height: calc(100vh - var(--menu-h));
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon-grid {
+  position: absolute;
+  right: 16px;
+  top: 18px;
+  display: grid;
+  gap: 18px;
+}
+
+.icon {
+  width: 68px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.icon-shape {
+  width: 48px;
+  height: 42px;
+  margin: 0 auto 7px;
+  border: 2px solid #111;
+  background: linear-gradient(180deg, #fff, #ddd);
+  box-shadow: 2px 2px 0 #666;
+}
+
+.icon-shape.trash {
+  border-radius: 4px 4px 8px 8px;
+}
+
+.window {
+  width: min(840px, 86vw);
+  border: 2px solid var(--line);
+  background: var(--paper);
+  box-shadow: 5px 5px 0 var(--shadow);
+}
+
+.window + .window {
+  margin-top: 20px;
+}
+
+.titlebar {
+  height: 30px;
+  border-bottom: 2px solid var(--line);
+  padding: 4px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: repeating-linear-gradient(
+    90deg,
+    #222,
+    #222 2px,
+    #efefef 2px,
+    #efefef 4px
+  );
+}
+
+.title-chip {
+  background: #efefef;
+  border: 2px solid #111;
+  padding: 2px 9px;
+  font-size: 12px;
+}
+
+.btns {
+  display: flex;
+  gap: 6px;
+}
+
+.btn {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #111;
+  background: #fff;
+}
+
+.body {
+  padding: 18px;
+  line-height: 1.35;
+  font-size: 14px;
+}
+
+.file-list {
+  border: 2px solid #111;
+  margin-top: 12px;
+}
+
+.file-row {
+  display: grid;
+  grid-template-columns: 1fr 130px 90px;
+  gap: 8px;
+  padding: 8px 10px;
+  border-top: 1px solid #111;
+  font-size: 13px;
+}
+
+.file-row:first-child {
+  border-top: none;
+  background: #ddd;
+  font-weight: bold;
+}
+
+.pointer {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 18px solid #111;
+  position: absolute;
+  right: 128px;
+  bottom: 82px;
+  transform: rotate(36deg);
+}
+
+.stack {
+  position: relative;
+  max-width: 920px;
+}
+
+.floating {
+  position: absolute;
+  right: -30px;
+  top: 140px;
+  width: min(360px, 45vw);
+  z-index: 8;
+}
+
+.floating .body {
+  font-size: 12px;
+}
+
+.note {
+  margin-top: 12px;
+  border: 2px dashed #111;
+  padding: 8px;
+  font-size: 12px;
+  background: #f7f7f7;
+}
+
+.mini-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.mini-card {
+  border: 2px solid #111;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.home-link {
+  display: inline-block;
+  margin: 10px 0 0;
+  border: 2px solid #111;
+  background: #fff;
+  padding: 6px 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 820px) {
+  .desktop {
+    padding: 12px;
+  }
+
+  .icon-grid {
+    position: static;
+    grid-template-columns: repeat(4, 68px);
+    margin: 8px 0 14px;
+  }
+
+  .floating {
+    position: static;
+    width: auto;
+    margin-top: 14px;
+  }
+
+  .file-row {
+    grid-template-columns: 1fr;
+  }
+}
