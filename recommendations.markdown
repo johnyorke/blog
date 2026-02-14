@@ -6,10 +6,7 @@ permalink: /recommendations/
 
 Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumerd (not their release date).
 
-# Titles
-
-## 2020
-### Book
+### Books
 * Endurance - Alfred Lansing
 * In Cold Blood - Truman Capote
 * Samurai Executioner - Koike & Kojima
@@ -26,8 +23,11 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Akira - Katsuhiro Otomi
 * The Making Of The Atomic Bomb - Richard Rhodes
 * The Ghost In The Shell 1.0 - Shirow Masamune
+* Masters Of Doom - David Kushner
+* Lone Wolf & Cub - Koike & Kojima
+* Chernobyl: History Of A Tragedy - Serhii Plokhy
 
-### Film
+### Films
 * Lady Bird - Saoirse Ronan
 * Uncut Gems - Josh & Bennie Safdie
 * Knives Out - Rian Johnson
@@ -39,8 +39,10 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Parasite - Bong Joon Ho
 * Akira IMAX - Katsuhiro Otomo
 * The Peanut Butter Falcon - Tyler Nilson and Michael Schwartz
+* Star Wars Episode IX: The Rise Of Skywalker - J.J Abrams
+* Joker - Joaquin Phoenix
 
-### Game
+### Games
 * Terraria - Switch
 * Luigi’s Mansion 3 - Switch
 * Animal Crossing: New Horizons - Switch
@@ -52,30 +54,16 @@ Below is a semi-conclusive list of experiences I have enjoyed and would recommen
 * Hades - Switch
 * Ghostrunner - PS4
 * Spider-Man: Miles Morales - PS5
-
-### TV Show
-* The Last Dance - Netflix
-* Escape At Dannemora - Showtime
-* Succession - HBO
-
-## 2019
-### Book
-* Masters Of Doom - David Kushner
-* Lone Wolf & Cub - Koike & Kojima
-* Chernobyl: History Of A Tragedy - Serhii Plokhy
-
-### Film
-* Star Wars Episode IX: The Rise Of Skywalker - J.J Abrams
-* Joker - Joaquin Phoenix
-
-### Game
 * Resident Evil 2 - PS4
 * Devil May Cry 5 - PS4
 * Jedi: Fallen Order - PS4
 * Sekiro: Shadows Die Twice - PS4
 * Zelda: Link’s Awakening Remake - Switch
 
-### TV Show
+### TV Shows
+* The Last Dance - Netflix
+* Escape At Dannemora - Showtime
+* Succession - HBO
 * The Morning Show - Apple TV+
 * Watchmen - HBO
 * Chernobyl - HBO

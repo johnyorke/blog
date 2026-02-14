@@ -28,4 +28,4 @@ I designed and developed the app that took advantage of most corners of iOS at t
 My own app that I designed and developed to help you automatically track your sleep based on large periods of inactivity (like your watch being on your nightstand).
 
 ### [Drest](https://www.drest.com) (iOS, 2019)
-My current employer where I spend most of time leading the Core team, but still manage to contribute to the codebase that I started over 2 years ago.
+I spent a lot of time leading the Core team there, and continued contributing to a codebase that I started in 2016.
