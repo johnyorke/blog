@@ -1,0 +1,27 @@
+<footer class="site-footer" aria-label="Footer">
+  <div class="site-footer-shell">
+    <div class="site-footer-inner">
+      <section>
+        <h3>{{ site.title }}</h3>
+        <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </section>
+      <section>
+        <h3>Links</h3>
+        <p>
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">
+            GitHub / {{ site.github_username }}
+          </a>
+        </p>
+        {% if site.bluesky_url %}
+          <p>
+            <a href="{{ site.bluesky_url | default: 'https://bsky.app/profile/did:plc:l2ivqhps4jgde4kidasaqvbw' }}" target="_blank" rel="noopener noreferrer">BlueSky / johnyorke</a>
+          </p>
+        {% endif %}
+      </section>
+      <section>
+        <h3>About</h3>
+        <p>{{ site.description }}</p>
+      </section>
+    </div>
+  </div>
+</footer>

@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Writings about software development, primarily focusing on iOS using Swift.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.johnyorke.me" # the base hostname & protocol for your site, e.g. http://example.com
-bluesky_url: https://bsky.app/profile/did:plc:l2ivqhps4jgde4kidasaqvbw
+bluesky_url: "https://bsky.app/profile/did:plc:l2ivqhps4jgde4kidasaqvbw"
 github_username:  johnyorke
 
 # Build settings
