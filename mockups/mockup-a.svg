@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <pattern id="dither" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#c8c8c8"/>
+      <rect x="0" y="0" width="1" height="1" fill="#777"/>
+      <rect x="3" y="3" width="1" height="1" fill="#fff"/>
+    </pattern>
+    <pattern id="stripe" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#efefef"/>
+      <rect width="3" height="8" fill="#1d1d1d"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#dither)"/>
+  <rect x="0" y="0" width="1200" height="34" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+  <text x="16" y="22" font-family="monospace" font-size="14" font-weight="700">Apple   File   Edit   View   Special</text>
+  <text x="1010" y="22" font-family="monospace" font-size="14">johnyorke.me  10:14</text>
+
+  <g transform="translate(930 84)">
+    <rect x="0" y="0" width="58" height="48" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+    <text x="8" y="68" font-family="monospace" font-size="13">Blog</text>
+    <rect x="0" y="96" width="58" height="48" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+    <text x="-2" y="164" font-family="monospace" font-size="13">Projects</text>
+    <rect x="0" y="192" width="58" height="48" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+    <text x="6" y="260" font-family="monospace" font-size="13">Trash</text>
+  </g>
+
+  <g transform="translate(120 90)">
+    <rect x="6" y="6" width="770" height="520" fill="#666"/>
+    <rect x="0" y="0" width="770" height="520" fill="#efefef" stroke="#111" stroke-width="3"/>
+    <rect x="0" y="0" width="770" height="34" fill="url(#stripe)" stroke="#111" stroke-width="3"/>
+    <rect x="280" y="6" width="210" height="22" fill="#efefef" stroke="#111" stroke-width="2"/>
+    <text x="332" y="22" font-family="monospace" font-size="13" font-weight="700">Home - Finder</text>
+
+    <text x="24" y="72" font-family="monospace" font-size="19" font-weight="700">Latest Writings</text>
+    <text x="24" y="98" font-family="monospace" font-size="14">Balanced desktop concept: one main content window + icon rail.</text>
+
+    <rect x="24" y="122" width="720" height="238" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="24" y="122" width="720" height="30" fill="#ddd" stroke="#111" stroke-width="2"/>
+    <text x="38" y="142" font-family="monospace" font-size="13" font-weight="700">Name</text>
+    <text x="470" y="142" font-family="monospace" font-size="13" font-weight="700">Date</text>
+    <text x="620" y="142" font-family="monospace" font-size="13" font-weight="700">Type</text>
+
+    <line x1="24" y1="184" x2="744" y2="184" stroke="#111" stroke-width="1"/>
+    <line x1="24" y1="216" x2="744" y2="216" stroke="#111" stroke-width="1"/>
+    <line x1="24" y1="248" x2="744" y2="248" stroke="#111" stroke-width="1"/>
+
+    <text x="38" y="174" font-family="monospace" font-size="13">Applying Design Principles</text>
+    <text x="470" y="174" font-family="monospace" font-size="13">2020-07-04</text>
+    <text x="620" y="174" font-family="monospace" font-size="13">Post</text>
+
+    <text x="38" y="206" font-family="monospace" font-size="13">Full Circle</text>
+    <text x="470" y="206" font-family="monospace" font-size="13">2022-07-02</text>
+    <text x="620" y="206" font-family="monospace" font-size="13">Post</text>
+
+    <text x="38" y="238" font-family="monospace" font-size="13">Recommendations</text>
+    <text x="470" y="238" font-family="monospace" font-size="13">Static</text>
+    <text x="620" y="238" font-family="monospace" font-size="13">Page</text>
+
+    <rect x="24" y="386" width="720" height="104" fill="#f8f8f8" stroke="#111" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="36" y="424" font-family="monospace" font-size="14">Best fit if you want a clear, readable main post window.</text>
+    <text x="36" y="450" font-family="monospace" font-size="14">Desktop flavor is present but restrained.</text>
+  </g>
+
+  <polygon points="1000,600 1040,700 1016,690 1000,730 980,720 996,680 974,676" fill="#111"/>
+</svg>

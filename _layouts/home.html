@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<section class="window finder-window is-active" data-window>
+  <header class="window-titlebar no-controls">
+    <h1>Posts - Finder</h1>
+  </header>
+  <div class="window-body">
+    {% if content and content != '' %}
+      <div class="intro-copy">{{ content }}</div>
+    {% endif %}
+
+    <div id="post-files" class="finder-table" role="table" aria-label="Blog posts">
+      <div class="finder-row finder-header" role="row">
+        <span role="columnheader">Name</span>
+        <span role="columnheader">Date</span>
+        <span role="columnheader">Type</span>
+      </div>
+      {% for post in site.posts %}
+        <a class="finder-row" role="row" href="{{ post.url | relative_url }}">
+          <span role="cell">{{ post.title }}</span>
+          <span role="cell">{{ post.date | date: '%Y-%m-%d' }}</span>
+          <span role="cell">Post</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
