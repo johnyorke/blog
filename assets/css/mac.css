@@ -406,7 +406,6 @@ a.finder-row:focus-visible {
   .menu-items li {
     flex: 0 0 auto;
   }
-
   .desktop {
     padding: 12px;
   }
@@ -427,5 +426,4 @@ a.finder-row:focus-visible {
     grid-template-columns: 1fr;
     gap: 8px;
   }
-
 }
