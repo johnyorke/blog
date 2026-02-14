@@ -4,7 +4,7 @@ title: Recommendations
 permalink: /recommendations/
 ---
 
-Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumerd (not their release date).
+Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumed (not their release date).
 
 ### Books
 * Endurance - Alfred Lansing
