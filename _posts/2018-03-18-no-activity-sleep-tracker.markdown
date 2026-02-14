@@ -41,7 +41,6 @@ In all honesty; I don’t think it will. I have, however, included an IAP which 
 
 ## Summary
 
-I hope you enjoy the app and I hope there are a few people like me that this works perfectly for. If it doesn’t work for you then I’d love to hear why not, or if you have any other questions or need any help you can get in touch via [email](mailto:hello@johnyorke.me) or on [Twitter](http://www.twitter.com/johnyorke).
+I hope you enjoy the app and I hope there are a few people like me that this works perfectly for. If it doesn’t work for you then I’d love to hear why not, or if you have any other questions or need any help you can get in touch via [email](mailto:hello@johnyorke.me) or on [BlueSky](https://bsky.app/profile/did:plc:l2ivqhps4jgde4kidasaqvbw).
 
 See you around, kid.
-
