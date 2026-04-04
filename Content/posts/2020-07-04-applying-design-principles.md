@@ -1,9 +1,11 @@
 ---
 title: "Applying Dieter Rams 10 Principles of Good Design to APIs"
-date: 2020-07-04 00:00:00 +0000
-tags: [ios, swift, development]
+date: 2020-07-04 00:00
+tags: ios, swift, development
 description: The best engineers don't just make something work, they also consider how it works.
 ---
+
+# Applying Dieter Rams 10 Principles of Good Design to APIs
 
 The best engineers don't just make something work, they also consider *how* it works. The idea of "API design" garners very little attention, but to me it is a fundamental of programming.
 

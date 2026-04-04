@@ -1,9 +1,11 @@
 ---
 title: "Full circle"
-date: 2022-07-02 00:00:00 +0000
-tags: [ios, swift, development, ipad]
+date: 2022-07-02 00:00
+tags: ios, swift, development, ipad
 description: Sometimes in software development you look at a system and think that the only way forward is a complete rewrite.
 ---
+
+# Full circle
 
 Sometimes in software development you look at a system and think that the only way forward is a complete rewrite.
 

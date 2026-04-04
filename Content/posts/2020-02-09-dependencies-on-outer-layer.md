@@ -1,9 +1,11 @@
 ---
 title: "Keeping External Dependencies On The Outer Layer"
-date: 2020-02-09 19:58:06 +0000
-tags: [ios, swift, development]
+date: 2020-02-09 19:58
+tags: ios, swift, development
 description: A technique to keep external dependencies on the outer layer of your apps.
 ---
+
+# Keeping External Dependencies On The Outer Layer
 
 I'm going to lay out a technique that I use to keep external dependencies on the outer layer of the apps that I work on.
 

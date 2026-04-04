@@ -1,9 +1,11 @@
 ---
 title: "No Activity Sleep Tracker"
-date: 2018-03-18 19:58:06 +0000
-tags: [ios, apps]
+date: 2018-03-18 19:58
+tags: ios, apps
 description: Tracking sleep with the minimum amount of fuss.
 ---
+
+# No Activity Sleep Tracker
 
 Tracking sleep with the minimum amount of fuss.
 

@@ -1,13 +1,15 @@
 ---
 title: "Usability Testing"
-date: 2018-08-18 19:58:06 +0000
-tags: [development, process]
+date: 2018-08-18 19:58
+tags: development, process
 description: When all your hard work is put under a microscope it can lead to a rather uncomfortable feeling.
 ---
 
-![Woman's hands holding an iPhone X and pressing on a control on screen](/assets/images/usability_testing/device_in_hand.jpeg)
+# Usability Testing
 
 When all your hard work is put under a microscope it can lead to a rather uncomfortable feeling.
+
+![Woman's hands holding an iPhone X and pressing on a control on screen](/assets/images/usability_testing/device_in_hand.jpeg)
 
 No one wants to hear that the project they've been working on for *x* number of months is "complicated", "looks ugly", or "doesn't work". It can lead to feelings of self-doubt or even lead you to giving up altogether. However, if framed right, it can be one of the most fulfilling and useful things you can do for your project.
 

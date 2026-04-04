@@ -21,6 +21,7 @@ struct JohnYorkeSite: Site {
     var author = "John Yorke"
 
     var homePage = Home()
+    var tagPage = Tags()
     var layout = MainLayout()
     var staticPages: [any StaticPage] = [About(), Projects(), Recommendations()]
     var articlePages: [any ArticlePage] = [BlogPost()]
