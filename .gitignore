@@ -1,5 +1,9 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+.DS_Store
+Build
+.build
+Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

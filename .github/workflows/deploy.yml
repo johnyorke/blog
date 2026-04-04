@@ -1,0 +1,27 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Ignite
+        run: |
+          git clone https://github.com/twostraws/Ignite.git /tmp/Ignite
+          cd /tmp/Ignite && make && sudo make install
+
+      - name: Build site
+        run: ignite build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./Build
