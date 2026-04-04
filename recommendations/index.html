@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" data-light-theme="light" data-dark-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Yorke" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Recommendations – johnyorke.me</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/prism-xcode-dark.css" rel="stylesheet" data-highlight-theme="xcode-dark" />
+    <link href="/css/prism-xcode-light.css" rel="stylesheet" data-highlight-theme="xcode-light" />
+    <link href="/css/prism-plugins.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://www.johnyorke.me/recommendations" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="johnyorke.me" />
+    <meta property="og:title" content="Recommendations" />
+    <meta name="twitter:title" content="Recommendations" />
+    <meta property="og:url" content="https://www.johnyorke.me/recommendations" />
+    <meta name="twitter:domain" content="johnyorke.me" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <div class="me-2 me-md-auto">
+            <a href="/" class="d-inline-flex align-items-center navbar-brand">johnyorke.me</a>
+          </div>
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col justify-content-end">
+              <li class="nav-item"><a href="/" class="nav-link text-nowrap">Blog</a></li>
+              <li class="nav-item"><a href="/about/" class="nav-link text-nowrap">About</a></li>
+              <li class="nav-item"><a href="/projects/" class="nav-link text-nowrap">Projects</a></li>
+              <li class="nav-item"><a href="/recommendations/" class="nav-link text-nowrap">Recommendations</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <h1>Recommendations</h1>
+      <p>Below is a semi-conclusive list of experiences I have enjoyed and would recommend. They're presented in the order in which they were consumed (not their release date).</p>
+      <h3>Books</h3>
+      <ul>
+        <li>Endurance - Alfred Lansing</li>
+        <li>In Cold Blood - Truman Capote</li>
+        <li>Samurai Executioner - Koike &amp; Kojima</li>
+        <li>Dept. Of Speculation - Jenny Offill</li>
+        <li>Captain Scott - Sir Ranulph Fiennes</li>
+        <li>Spelunky - Derek Yu</li>
+        <li>The Worst Journey In The World - Apsley Cherry-Garrard</li>
+        <li>The Making Of Prince Of Persia - Jordan Mechner</li>
+        <li>Boss Fights: Red Dead Redemption - Matt Margini</li>
+        <li>A Brief History Of Japan - Jonathan Clements</li>
+        <li>Vagabond: Volume 1 - Takehiko Inoue</li>
+        <li>Barefoot Gen - Keiji Nakazawa</li>
+        <li>Pure Invention - Matt Alt</li>
+        <li>Akira - Katsuhiro Otomi</li>
+        <li>The Making Of The Atomic Bomb - Richard Rhodes</li>
+        <li>The Ghost In The Shell 1.0 - Shirow Masamune</li>
+        <li>Masters Of Doom - David Kushner</li>
+        <li>Lone Wolf &amp; Cub - Koike &amp; Kojima</li>
+        <li>Chernobyl: History Of A Tragedy - Serhii Plokhy</li>
+      </ul>
+      <h3>Films</h3>
+      <ul>
+        <li>Lady Bird - Saoirse Ronan</li>
+        <li>Uncut Gems - Josh &amp; Bennie Safdie</li>
+        <li>Knives Out - Rian Johnson</li>
+        <li>Marriage Story - Noah Baumbach</li>
+        <li>Jojo Rabbit - Taika Waititi</li>
+        <li>Lone Wolf &amp; Cub (6 Films) - Tomisaburo Wakayama</li>
+        <li>1917 - Sam Mendes</li>
+        <li>Seven Samurai - Akira Kurosawa</li>
+        <li>Parasite - Bong Joon Ho</li>
+        <li>Akira IMAX - Katsuhiro Otomo</li>
+        <li>The Peanut Butter Falcon - Tyler Nilson and Michael Schwartz</li>
+        <li>Star Wars Episode IX: The Rise Of Skywalker - J.J Abrams</li>
+        <li>Joker - Joaquin Phoenix</li>
+      </ul>
+      <h3>Games</h3>
+      <ul>
+        <li>Terraria - Switch</li>
+        <li>Luigi's Mansion 3 - Switch</li>
+        <li>Animal Crossing: New Horizons - Switch</li>
+        <li>Final Fantasy 7 Remake - PS4</li>
+        <li>Superhot VR - Oculus Quest</li>
+        <li>Last Of Us Part Two - PS4</li>
+        <li>Ghost Of Tsushima - PS4</li>
+        <li>Marvel Avengers - PS4</li>
+        <li>Hades - Switch</li>
+        <li>Ghostrunner - PS4</li>
+        <li>Spider-Man: Miles Morales - PS5</li>
+        <li>Resident Evil 2 - PS4</li>
+        <li>Devil May Cry 5 - PS4</li>
+        <li>Jedi: Fallen Order - PS4</li>
+        <li>Sekiro: Shadows Die Twice - PS4</li>
+        <li>Zelda: Link's Awakening Remake - Switch</li>
+      </ul>
+      <h3>TV Shows</h3>
+      <ul>
+        <li>The Last Dance - Netflix</li>
+        <li>Escape At Dannemora - Showtime</li>
+        <li>Succession - HBO</li>
+        <li>The Morning Show - Apple TV+</li>
+        <li>Watchmen - HBO</li>
+        <li>Chernobyl - HBO</li>
+        <li>The Mandalorian - Disney+</li>
+      </ul>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/syntax-highlighting.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
