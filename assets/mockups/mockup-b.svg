@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <pattern id="dither2" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="#c6c6c6"/>
+      <rect x="1" y="1" width="1" height="1" fill="#6a6a6a"/>
+      <rect x="4" y="4" width="1" height="1" fill="#fff"/>
+    </pattern>
+    <pattern id="stripe2" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#eee"/>
+      <rect x="0" width="2" height="8" fill="#111"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#dither2)"/>
+  <rect x="0" y="0" width="1200" height="34" fill="#f8f8f8" stroke="#111" stroke-width="2"/>
+  <text x="16" y="22" font-family="monospace" font-size="14" font-weight="700">Apple   File   Edit   View   Window   Help</text>
+  <text x="1030" y="22" font-family="monospace" font-size="14">Desktop 11:22</text>
+
+  <g transform="translate(28 86)">
+    <rect width="56" height="46" fill="#f7f7f7" stroke="#111" stroke-width="2"/><text x="8" y="66" font-family="monospace" font-size="12">About</text>
+    <rect y="102" width="56" height="46" fill="#f7f7f7" stroke="#111" stroke-width="2"/><text x="2" y="168" font-family="monospace" font-size="12">Archive</text>
+    <rect y="204" width="56" height="46" fill="#f7f7f7" stroke="#111" stroke-width="2"/><text x="8" y="270" font-family="monospace" font-size="12">Games</text>
+  </g>
+
+  <g transform="translate(120 96)">
+    <rect x="6" y="6" width="760" height="500" fill="#5f5f5f"/>
+    <rect x="0" y="0" width="760" height="500" fill="#efefef" stroke="#111" stroke-width="3"/>
+    <rect x="0" y="0" width="760" height="34" fill="url(#stripe2)" stroke="#111" stroke-width="3"/>
+    <rect x="294" y="6" width="170" height="22" fill="#efefef" stroke="#111" stroke-width="2"/>
+    <text x="334" y="22" font-family="monospace" font-size="13" font-weight="700">Posts Folder</text>
+
+    <text x="24" y="76" font-family="monospace" font-size="14">Dense Finder workspace with overlapping utility windows.</text>
+    <rect x="24" y="98" width="710" height="368" fill="#fff" stroke="#111" stroke-width="2"/>
+    <rect x="24" y="98" width="710" height="30" fill="#ddd" stroke="#111" stroke-width="2"/>
+
+    <text x="36" y="118" font-family="monospace" font-size="13" font-weight="700">Item</text>
+    <text x="500" y="118" font-family="monospace" font-size="13" font-weight="700">Modified</text>
+    <text x="625" y="118" font-family="monospace" font-size="13" font-weight="700">Kind</text>
+
+    <line x1="24" y1="164" x2="734" y2="164" stroke="#111"/>
+    <line x1="24" y1="204" x2="734" y2="204" stroke="#111"/>
+    <line x1="24" y1="244" x2="734" y2="244" stroke="#111"/>
+
+    <text x="36" y="154" font-family="monospace" font-size="13">usability-testing.markdown</text>
+    <text x="500" y="154" font-family="monospace" font-size="13">2018</text>
+    <text x="625" y="154" font-family="monospace" font-size="13">File</text>
+
+    <text x="36" y="194" font-family="monospace" font-size="13">dependencies-on-outer-layer.markdown</text>
+    <text x="500" y="194" font-family="monospace" font-size="13">2020</text>
+    <text x="625" y="194" font-family="monospace" font-size="13">File</text>
+
+    <text x="36" y="234" font-family="monospace" font-size="13">full-circle.markdown</text>
+    <text x="500" y="234" font-family="monospace" font-size="13">2022</text>
+    <text x="625" y="234" font-family="monospace" font-size="13">File</text>
+  </g>
+
+  <g transform="translate(740 210)">
+    <rect x="5" y="5" width="390" height="220" fill="#5b5b5b"/>
+    <rect width="390" height="220" fill="#efefef" stroke="#111" stroke-width="3"/>
+    <rect width="390" height="34" fill="url(#stripe2)" stroke="#111" stroke-width="3"/>
+    <rect x="130" y="6" width="132" height="22" fill="#efefef" stroke="#111" stroke-width="2"/>
+    <text x="154" y="22" font-family="monospace" font-size="13" font-weight="700">Control Panel</text>
+    <text x="18" y="74" font-family="monospace" font-size="13">- Window density toggle</text>
+    <text x="18" y="104" font-family="monospace" font-size="13">- Post list mode</text>
+    <text x="18" y="134" font-family="monospace" font-size="13">- Icon labels</text>
+    <text x="18" y="174" font-family="monospace" font-size="13">Best for a true desktop metaphor.</text>
+  </g>
+</svg>
