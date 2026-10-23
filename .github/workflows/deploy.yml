@@ -12,6 +12,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout pull-request game
+        uses: actions/checkout@v4
+        with:
+          repository: johnyorke/pull-request
+          path: pull-request-src
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: pull-request-src/package-lock.json
+
+      - name: Build pull-request game
+        run: |
+          cd pull-request-src
+          npm ci
+          npm run build
+          rm -rf ../assets/games/pull-request
+          mkdir -p ../assets/games/pull-request
+          cp -R dist/. ../assets/games/pull-request/
+
       - name: Install Ignite
         run: |
           git clone https://github.com/twostraws/Ignite.git /tmp/Ignite
