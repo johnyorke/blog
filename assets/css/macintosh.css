@@ -338,17 +338,6 @@ a {
   font-size: 14px;
 }
 
-.mac-window-content .ig-main-content > h1:first-child {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
 
 .mac-window-content h1,
 .mac-window-content h2,
