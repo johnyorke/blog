@@ -22,9 +22,12 @@ struct JohnYorkeSite: Site {
 
     var homePage = Home()
     var tagPage = Tags()
-    var layout = MainLayout()
-    var staticPages: [any StaticPage] = [About(), Projects(), Recommendations()]
+    var layout = MacintoshLayout()
+    var lightTheme: (any Theme)? = MacintoshTheme()
+    var darkTheme: (any Theme)? = nil
+    var staticPages: [any StaticPage] = [About(), Projects()]
     var articlePages: [any ArticlePage] = [BlogPost()]
     var feedConfiguration = FeedConfiguration(mode: .full, contentCount: 20)
     var syntaxHighlighterConfiguration = SyntaxHighlighterConfiguration(languages: [.swift])
+    var prettifyHTML = false
 }

@@ -8,7 +8,6 @@ struct MainLayout: Layout {
                 Link("Blog", target: "/")
                 Link("About", target: "/about")
                 Link("Projects", target: "/projects")
-                Link("Recommendations", target: "/recommendations")
             }
 
             content
