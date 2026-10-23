@@ -26,6 +26,9 @@ struct MacintoshLayout: Layout {
                     Link("Projects", target: "/projects")
                         .class("mac-menu-item")
 
+                    Link("Games", target: "/games")
+                        .class("mac-menu-item")
+
                     Span(site.name)
                         .class("mac-menu-name")
                 }
