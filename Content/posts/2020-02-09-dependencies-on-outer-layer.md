@@ -47,9 +47,9 @@ Then we're going to declare a protocol that can handle common tasks related to t
 
 ```swift
 protocol Database {
- func addOrReplace<T: Persistable>(_ object: T) -> Bool
- func delete<T: Persistable>(_ object: T) -> Bool
- func object<T: Persistable>(usingPredicate: NSPredicate) -> [R]
+ func addOrReplace&lt;T: Persistable&gt;(_ object: T) -&gt; Bool
+ func delete&lt;T: Persistable&gt;(_ object: T) -&gt; Bool
+ func object&lt;T: Persistable&gt;(usingPredicate: NSPredicate) -&gt; [R]
 }
 ```
 
@@ -64,11 +64,11 @@ struct DatabaseRepository {
   self.database = CoreDatabase()
  }
   
-func save<T: Persistable>(_ object: T) -> Bool {
+func save&lt;T: Persistable&gt;(_ object: T) -&gt; Bool {
   return self.database.addOrReplace(object)
  }
   
-func remove<T: Persistable>(_ object: T) -> Bool {
+func remove&lt;T: Persistable&gt;(_ object: T) -&gt; Bool {
   return self.database.delete(object)
  }
   
@@ -81,7 +81,7 @@ func people(above age: Int) -> [Person] {
  }
   
 func cars(withMileageBelow mileage: Int) -> [Car] {
-  let predicate = NSPredicate(format: "mileage < %d", mileage)
+  let predicate = NSPredicate(format: "mileage &lt; %d", mileage)
   if let cars = self.database.object(usingPredicate: predicate) as? [Car] {
    return cars
   } else { return [] }
@@ -97,7 +97,7 @@ import CoreData
 
 struct CoreDataDatabase: Database {
 
-func addOrReplace<T: Persistable>(object: T) -> Bool {
+func addOrReplace&lt;T: Persistable&gt;(object: T) -&gt; Bool {
   var entity = NSManagedObject?
   
   if let domainObject = object as? Person {
@@ -118,7 +118,7 @@ func delete(object: DatabaseObject) -> Bool {
   self.context.save()
  }
   
-func objects<T: Persistable>(usingPredicate predicate: NSPredicate) -> [R] {
+func objects&lt;T: Persistable&gt;(usingPredicate predicate: NSPredicate) -&gt; [R] {
   // Set up fetch query using predicate then...
   return entityObjects.flatMap { $0.domainObject() }
  }
@@ -133,7 +133,7 @@ As you can see we're using some models here that are specific to Core Data (NSMa
 ```swift
 import CoreData
 
-protocol OuterModel<T: Persistable> {
+protocol OuterModel&lt;T: Persistable&gt; {
  func init(from model: T)
  func domainObject() -> T
 }
