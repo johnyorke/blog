@@ -3,7 +3,13 @@ name: Build and Deploy
 on:
   push:
     branches: [master, ignite]
+  repository_dispatch:
+    types: [pull-request-updated]
   workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
 
 jobs:
   build:
